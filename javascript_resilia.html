@@ -5,55 +5,63 @@
 
 <script>
 
-    // A vidente
-
-    function pulaLinha() {
-
-        document.write("<br>");
-        document.write("<br>");
-    }
-
-
-    function mostra(frase) {
-
-        document.write(frase) ;
-        pulaLinha;
-
-    }
 
     var nome = ("Marcelo Moita")
     var filhos = ("2")
     var cidade = ("Lisboa")
     var profissao = ("Programador")
+    var item1 = ("Filtro de agua")
+    var item2 = ("linha de pesca")
+    var item3 = ("anzol")
+    var animal1 = ("Tigre")
 
+    //A vidente
 
-    mostra ("A vidade prevê: " + nome + " terá " + filhos + " filhos e viverá em " + cidade + " trabalhando como " + profissao + "." + "<br><br><br><br>");
+    function pulaLinha () {
+        document.write ("<br><br><br>");
+        
+    }
 
+    function vidente () {
+        document.write ("A vidente prevê: " + nome + " terá " + filhos + " filhos e viverá em " + cidade + " trabalhando como " + profissao + ".")
+        pulaLinha();
+    }
+
+    vidente();
+    
+ 
     
     // Ilha Deserta
 
-    
-
-    var filtro = ("Filtro de Água")
-    var anzol = ("Anzol de Pesca")
-    var linha = ("Linha de Pesca")
-
-    mostra ("Eu levaria para uma ilha deserta:" + filtro + "," + anzol + "e " + linha + "." + "<br><br><br><br>");
-
-
-    // Escolha Animal
-
-    function mostra(frase) {
-
-    document.write(frase);
-    
+    function ilha () {
+        document.write ("Eu levaria para uma ilha deserta:" + item1 + ", " + item2 + " e " + item3 + "." );
+        pulaLinha();
     }
 
-    function escolhaAnimal() {
-    
+    ilha();
+
+
+
+    // Animal
+
+    function animal () {
+        document.write ("Num primeiro momento, eu gostaria de ser um " + animal1 + ".");
+        document.write ("<br>");
+
+        animal1 = ("Lobo");
+
+        document.write ("Pensando melhor, prefiro ser um " + animal1 + ".");
     }
 
-    var animalEscolhido = (" Tigre")
+    animal();
+
+    
+    
+
+    
+
+
+    
 
 
 
