@@ -26,6 +26,8 @@
 
     document.write (nome + ", o seu IMC é " + Math.round (imc));
 
+    
+
  
 
      

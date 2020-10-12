@@ -1,0 +1,5 @@
+
+
+function sinalizar (luz) {
+    if 
+}
