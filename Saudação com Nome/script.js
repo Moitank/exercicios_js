@@ -4,7 +4,7 @@
 
 
 function saudacao (nome) {
-    var ola = "Olá "+ nome + "." + "<br>" + "Tudo bem " + nome + "?"
+    let ola = "Olá "+ nome + "." + "<br>" + "Tudo bem " + nome + "?"
     document.write(ola)
     
 }
